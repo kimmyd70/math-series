@@ -29,9 +29,6 @@ Add a third function called `sum_series` with one required parameter and two opt
 Calling `sum_series` with no optional parameters will produce numbers from the fibonacci series. Calling it with the optional arguments 2 and 1 will produce values from the lucas numbers. Other values for the optional parameters will produce other series. 
 
 Ensure all function(s) have a well-formed docstring
-
-NOTE:  With unclear interpretation of the instructions, we made an assumption about what
-return the nth value means.  For example, with an input parameter of n = 3, the user is telling us "i want to see the 3rd value in the series."  For us and our code, this means we return the value at list index (2) which is the 3rd number in the series
 ______________
 
 ## Configuration and Technologies
@@ -44,7 +41,9 @@ __________
 
 8 Dec: whiteboard with Jae Choi
 
-9 Dec: updated `README.md`; coded, tested, troubleshooted `series.py` and `test_series.py` ; submitted PR for grading
+9 Dec: updated `README.md`; created `series.py` and `test_series.py`
+
+10 Dec: coded, tested, troubleshooted and submitted PR for grading
 
 ___________
 
