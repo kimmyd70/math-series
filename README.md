@@ -66,4 +66,4 @@ Intial whiteboard session with Jae Choi
 
 [Python naming conventions](https://www.python.org/dev/peps/pep-0008/)
 
-
+[Poetry documentation](https://python-poetry.org/docs/)

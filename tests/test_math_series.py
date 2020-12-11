@@ -1,4 +1,5 @@
 from math_series import __version__
+from math_series.series import *
 
 
 def test_version():
@@ -7,14 +8,45 @@ def test_version():
 
 """Using unit tests for Test Driven Development as discussed in class"""
 
-#base case with input 1/0/1
+#base case fib with input 0
+def test_zero():
+    actual = fibonacci(0)
+    expected = 0
+    assert actual == expected
 
-#base case with input 1/2/1
+#base case lucas with input 0
+def test_zero_lucas():
+    actual = lucas(0)
+    expected = 2
+    assert actual == expected
 
-#test case with small n and no optional params
+#test case fib with small n 
+def test_small_fib():
+    actual = fibonacci(2)
+    expected = 1
+    assert actual == expected
 
-#test case with small n and 2/1 optional params
+# #test case lucas with small n 
+# def test_small_lucas():
+#     actual = lucas(3)
+#     expected = 1
+#     assert actual == expected
 
-#test case with large n and no optional params
+#test case fib with large n 
+def test_lg_fib():
+    actual = fibonacci(25)
+    expected = 46368
+    assert actual == expected
 
-#test case with large n and 2/1 optional params
+
+# #test case lucas with large n 
+# def test_lg_lucas():
+#     actual = lucas(25)
+#     expected = 103682
+#     assert actual == expected
+    
+# #test sum_series with (n,a,b)
+# def test_random():
+#     actual = sum_series(1,1,2)
+#     expected = 2
+#     assert actual == expected
