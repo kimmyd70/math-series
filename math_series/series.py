@@ -54,5 +54,5 @@ def sum_series (n,a=7,b=9):
             sum_next = series[x-1]+ series[x-2]
             series.append(sum_next)
 
-    return series[n]
+    return series[n-1]
 

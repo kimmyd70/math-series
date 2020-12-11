@@ -59,6 +59,6 @@ def test_random():
     
 # #test sum_series with (n,a,b)
 def test_random():
-    actual = sum_series(2,0,1)
-    expected = 1
+    actual = sum_series(5,7,9)
+    expected = 41
     assert actual == expected
