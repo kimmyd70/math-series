@@ -1,7 +1,7 @@
 
 # Math-series
 
-Submission pull request:
+Submission pull request:[here](https://github.com/kimmyd70/math-series/pull/1)
 
 __________
 #### Developer: Kim Damalas
