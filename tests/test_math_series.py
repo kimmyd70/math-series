@@ -27,10 +27,10 @@ def test_small_fib():
     assert actual == expected
 
 # #test case lucas with small n 
-# def test_small_lucas():
-#     actual = lucas(3)
-#     expected = 1
-#     assert actual == expected
+def test_small_lucas():
+    actual = lucas(3)
+    expected = 3
+    assert actual == expected
 
 #test case fib with large n 
 def test_lg_fib():
@@ -39,11 +39,11 @@ def test_lg_fib():
     assert actual == expected
 
 
-# #test case lucas with large n 
-# def test_lg_lucas():
-#     actual = lucas(25)
-#     expected = 103682
-#     assert actual == expected
+#test case lucas with large n 
+def test_lg_lucas():
+    actual = lucas(25)
+    expected = 103682
+    assert actual == expected
     
 # #test sum_series with (n,a,b)
 # def test_random():
