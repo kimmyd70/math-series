@@ -45,8 +45,20 @@ def test_lg_lucas():
     expected = 103682
     assert actual == expected
     
+#test sum_series with (n,a,b)
+def test_random():
+    actual = sum_series(0,7,9)
+    expected = 7
+    assert actual == expected
+    
 # #test sum_series with (n,a,b)
-# def test_random():
-#     actual = sum_series(1,1,2)
-#     expected = 2
-#     assert actual == expected
+def test_random():
+    actual = sum_series(1,7,9)
+    expected = 9
+    assert actual == expected
+    
+# #test sum_series with (n,a,b)
+def test_random():
+    actual = sum_series(2,0,1)
+    expected = 1
+    assert actual == expected
