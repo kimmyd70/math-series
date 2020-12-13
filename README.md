@@ -1,7 +1,7 @@
 
 # Math-series
 
-Submission pull request:
+Submission pull request:[here](https://github.com/kimmyd70/math-series/pull/1)
 
 __________
 #### Developer: Kim Damalas
@@ -66,4 +66,4 @@ Intial whiteboard session with Jae Choi
 
 [Python naming conventions](https://www.python.org/dev/peps/pep-0008/)
 
-
+[Poetry documentation](https://python-poetry.org/docs/)
